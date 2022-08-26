@@ -245,7 +245,7 @@ input {
 
 
 /* Мобильная версия */
-/* @media (max-width: 720px) {
+@media (max-width: 720px) {
 
     header {
         padding: 10px;
@@ -278,78 +278,29 @@ input {
         width: 280px;
     }
 
-    .about__info h1,
-    .form__containter h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-
-
-
-    .footer__container {
-        flex-direction: column;
-    }
-} */
-
-@media (max-width: 720px) {
-    header {
-        padding: 10px;
-    }
-  
-    .header__logo {
-        height: 20px;
-    }
-  
-    header a {
-        margin-right: 10px;
-    }
-  
-    .about {
-        flex-direction: column-reverse;
-        padding: 50px 10px;
-    }
-  
     .about h1 {
         font-size: 36px;
         line-height: 40px;
     }
-  
-    .about__solar-panel {
-        width: 280px;
-    }
-  
-    .about__sun-image {
-        width: 75px;
-        height: 75px;
-    }
-  
-    .form {
-        padding: 50px 10px;
-    }
-  
+
     .form h1 {
         font-size: 36px;
     }
-  
-    footer {
-        padding: 50px 10px;
-    }
-  
+
     .footer__container {
         flex-direction: column;
     }
- }
+}
+
 
 /* Планшетная версия */
 @media (max-width: 1024px) {
-    footer,
-    .about,
-    .form {
-        padding-left: 20px;
-        padding-right: 20px;
+
+    .about {
+        padding: 115px 20px;
     }
 
-    .about__info h1{
+    .about h1 {
         font-size: 36px;
         line-height: 40px;
     }
