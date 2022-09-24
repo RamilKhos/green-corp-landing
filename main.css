@@ -260,7 +260,7 @@ button:hover {
 }
 
 .promo__image {
-    background-image: url(../images/promo.jpg);
+    background-image: url(images/promo.jpg);
     width: 50%;
     flex-shrink: 0;
     background-size: cover;
