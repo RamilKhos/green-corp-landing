@@ -61,6 +61,8 @@ button:hover {
     padding-top: 115px;
     padding-bottom: 115px;
 
+    position: relative;
+
     background: url(images/back.png) no-repeat;
     background-position: center;
     background-size: cover;  
@@ -131,6 +133,14 @@ button:hover {
 
 .about span {
     font-size: 13px;
+}
+
+/* CANVAS */
+.orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
 
 
